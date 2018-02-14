@@ -1,0 +1,47 @@
+﻿.container {
+    display: grid;
+    border-style:solid;
+    border-color: black;
+    grid-template-columns: 500px 500px;
+    grid-gap: 10px 10px;
+    
+    max-width: 1000px;
+    width: 90%;
+}
+
+
+
+.grid-item-header {
+    background-color: dodgerblue;
+    color:white;
+    grid-column: 1 / span 2;
+    grid-template-rows: 300px;
+   
+}
+
+.grid-item-main-content{
+    background-color: chartreuse;
+    color:white;
+}
+
+.grid-item-sidebar{
+    background-color: mediumpurple;
+    color:white;
+}
+
+.grid-item-twin{
+    background-color: orange;
+    color:white;
+
+}
+
+.grid-item-twin{
+    background-color: orange;
+    color: white;
+}
+
+.grid-item-footer {
+    background-color: purple;
+    color: white;
+    grid-column: 1 / span 2;
+}
